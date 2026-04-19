@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — XView</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0a0a1a;
+      color: #e0e0e8;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    h1 span {
+      background: linear-gradient(135deg, #00d2ff, #7b2ff7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .updated {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: #00d2ff;
+      margin: 32px 0 12px;
+    }
+    p, li {
+      font-size: 0.95rem;
+      color: #b0b0c0;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 24px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; }
+    a {
+      color: #00d2ff;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      text-align: center;
+      font-size: 12px;
+      color: #555;
+    }
+    .footer strong {
+      background: linear-gradient(135deg, #00d2ff, #7b2ff7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Política de Privacidad de <span>XView</span></h1>
+    <p class="updated">Última actualización: 20 de abril de 2026</p>
+
+    <h2>1. Introducción</h2>
+    <p>XView es una extensión para Google Chrome desarrollada por Skampax. Esta política de privacidad explica cómo la extensión maneja la información del usuario.</p>
+
+    <h2>2. Datos que recopilamos</h2>
+    <p><strong>XView no recopila, almacena ni transmite ningún dato personal del usuario.</strong></p>
+    <p>La extensión no recoge:</p>
+    <ul>
+      <li>Información de identificación personal</li>
+      <li>Historial de navegación</li>
+      <li>Datos de actividad del usuario</li>
+      <li>Ubicación</li>
+      <li>Cookies de seguimiento</li>
+      <li>Ningún otro tipo de dato personal</li>
+    </ul>
+
+    <h2>3. Almacenamiento local</h2>
+    <p>XView utiliza únicamente <code>chrome.storage.local</code> para guardar una preferencia de configuración: si la extensión está activada o desactivada. Este dato se almacena exclusivamente de forma local en tu navegador y nunca se envía a ningún servidor externo.</p>
+
+    <h2>4. Permisos de la extensión</h2>
+    <p>XView solicita los siguientes permisos, que se usan exclusivamente para su funcionamiento:</p>
+    <ul>
+      <li><strong>activeTab:</strong> Para ejecutar el bloqueo de modales en la pestaña activa.</li>
+      <li><strong>storage:</strong> Para guardar la preferencia de activación/desactivación localmente.</li>
+      <li><strong>scripting:</strong> Para inyectar el script que detecta y elimina modales y overlays.</li>
+      <li><strong>host_permissions (todos los sitios):</strong> Para poder bloquear pop-ups y modales en cualquier página web que visites.</li>
+    </ul>
+
+    <h2>5. Comunicación con servidores externos</h2>
+    <p>XView no se comunica con ningún servidor externo. Todo el procesamiento se realiza localmente en tu navegador. No se envían datos, estadísticas ni información de uso a terceros.</p>
+
+    <h2>6. Servicios de terceros</h2>
+    <p>XView no utiliza servicios de terceros, herramientas de análisis, SDKs de publicidad ni ningún otro servicio externo.</p>
+
+    <h2>7. Seguridad</h2>
+    <p>Al no recopilar ni transmitir datos, XView minimiza cualquier riesgo de seguridad para el usuario. La extensión opera exclusivamente dentro del entorno local del navegador.</p>
+
+    <h2>8. Cambios en esta política</h2>
+    <p>Si se realizan cambios en esta política de privacidad, se actualizará la fecha de "Última actualización" en la parte superior de esta página.</p>
+
+    <h2>9. Contacto</h2>
+    <p>Si tienes preguntas sobre esta política de privacidad, puedes contactar al desarrollador a través de la página de la extensión en la Chrome Web Store.</p>
+
+    <div class="footer">
+      <p>Proyecto desarrollado por <strong>Skampax</strong></p>
+      <p>&copy; 2026 XView. Todos los derechos reservados.</p>
+      <p style="margin-top: 8px;"><a href="index.html">← Volver a XView</a></p>
+    </div>
+  </div>
+</body>
+</html>
